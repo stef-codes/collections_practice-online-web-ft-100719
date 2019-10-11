@@ -52,5 +52,6 @@ def add_s(array)
   if element[1] == element
   else element + "s"
   end 
+  element
   }
 end 
