@@ -48,5 +48,8 @@ def sum_array(array)
 end 
 
 def add_s 
-  array.e
+  array.each_with_index.collect{|element, index| }
+  if element[1] == element
+  else element + "s"
+  end 
 end 
