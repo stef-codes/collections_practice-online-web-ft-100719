@@ -50,7 +50,7 @@ end
 def add_s(array)
   array.collect {|element| 
     if array[1] == element
-      return element
+      element
     else element + "s"
     end}
 end 
