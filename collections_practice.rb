@@ -36,3 +36,7 @@ def kesha_maker(array)
     end
   new_names
 end 
+
+def find_a 
+  a
+end 
