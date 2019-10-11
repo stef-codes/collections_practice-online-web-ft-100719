@@ -37,6 +37,8 @@ def kesha_maker(array)
   new_names
 end 
 
-def find_a 
-  a
+def find_a(array) 
+  array.each do |string|
+    string.start_with?("a")
+  end 
 end 
