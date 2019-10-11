@@ -29,7 +29,8 @@ def reverse_array(array)
 end 
 
 def kesha_maker(array)
-  array.length(2) 
+  array.each do |name|
+    name[2] = 
   array
   
 end 
