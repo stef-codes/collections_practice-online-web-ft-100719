@@ -32,7 +32,7 @@ def kesha_maker(array)
   new_names = []
   array.each do |name|
     name[2] = "$"
-    new_names << new_name
+    new_names << name
     end
   new_names
 end 
