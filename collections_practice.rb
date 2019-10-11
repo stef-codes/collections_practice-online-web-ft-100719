@@ -50,8 +50,8 @@ end
 def add_s(array)
   array.each_with_index.collect{|element, index| 
   if element[1] == element
+    element
   else element + "s"
   end 
-  element
   }
 end 
